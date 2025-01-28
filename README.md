@@ -107,56 +107,7 @@ ans=bs.bisection_method(my_function,a_guess,b_guess)
     ---> 10 ans=bs.bisection_method(my_function,a_guess,b_guess)
 
 
-    File /projectnb/me700/students/quan/assignments/me700_assignment1/src/bisection.py:41, in bisection_method(func, a, b, tol, recursion_count, max_iter)
-         39     return c
-         40 elif check_same_sign(func,a,c):
-    ---> 41     return bisection_method(func,c,b,tol,recursion_count,max_iter)
-         42 elif check_same_sign(func,b,c):
-         43     return bisection_method(func,a,c,tol,recursion_count,max_iter)
-
-
-    File /projectnb/me700/students/quan/assignments/me700_assignment1/src/bisection.py:41, in bisection_method(func, a, b, tol, recursion_count, max_iter)
-         39     return c
-         40 elif check_same_sign(func,a,c):
-    ---> 41     return bisection_method(func,c,b,tol,recursion_count,max_iter)
-         42 elif check_same_sign(func,b,c):
-         43     return bisection_method(func,a,c,tol,recursion_count,max_iter)
-
-
-    File /projectnb/me700/students/quan/assignments/me700_assignment1/src/bisection.py:43, in bisection_method(func, a, b, tol, recursion_count, max_iter)
-         41     return bisection_method(func,c,b,tol,recursion_count,max_iter)
-         42 elif check_same_sign(func,b,c):
-    ---> 43     return bisection_method(func,a,c,tol,recursion_count,max_iter)
-
-
-        [... skipping similar frames: bisection_method at line 41 (1 times)]
-
-
-    File /projectnb/me700/students/quan/assignments/me700_assignment1/src/bisection.py:43, in bisection_method(func, a, b, tol, recursion_count, max_iter)
-         41     return bisection_method(func,c,b,tol,recursion_count,max_iter)
-         42 elif check_same_sign(func,b,c):
-    ---> 43     return bisection_method(func,a,c,tol,recursion_count,max_iter)
-
-
-        [... skipping similar frames: bisection_method at line 43 (22 times), bisection_method at line 41 (21 times)]
-
-
-    File /projectnb/me700/students/quan/assignments/me700_assignment1/src/bisection.py:41, in bisection_method(func, a, b, tol, recursion_count, max_iter)
-         39     return c
-         40 elif check_same_sign(func,a,c):
-    ---> 41     return bisection_method(func,c,b,tol,recursion_count,max_iter)
-         42 elif check_same_sign(func,b,c):
-         43     return bisection_method(func,a,c,tol,recursion_count,max_iter)
-
-
-        [... skipping similar frames: bisection_method at line 43 (951 times)]
-
-
-    File /projectnb/me700/students/quan/assignments/me700_assignment1/src/bisection.py:43, in bisection_method(func, a, b, tol, recursion_count, max_iter)
-         41     return bisection_method(func,c,b,tol,recursion_count,max_iter)
-         42 elif check_same_sign(func,b,c):
-    ---> 43     return bisection_method(func,a,c,tol,recursion_count,max_iter)
-
+    [... skipping some code blocks for conciseness ...]
 
     File /projectnb/me700/students/quan/assignments/me700_assignment1/src/bisection.py:24, in bisection_method(func, a, b, tol, recursion_count, max_iter)
          21 # if the function has been called recursively max_iter times,
