@@ -80,7 +80,7 @@ print('\n As you can see, the bisection method is very sensitive to the initial 
 
 Can you guess what's happening in this example? (The first code block is supposed to fail)
 
-Find the root of $y=(1.5x)^5-5x-2$ with your own initial guesses, and with initial guesses of -1 & 20.
+Find the root of $y=(0.1x)^5-0.5x-2$.
 
 
 ```python
