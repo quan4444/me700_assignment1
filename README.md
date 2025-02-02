@@ -4,6 +4,52 @@ The bisection  method is a root-finding method that applies to any continuous fu
 
 [1] https://en.wikipedia.org/wiki/Bisection_method
 
+### Install package, test code, and run tutorials
+
+To install this package, please begin by setting up a conda environment:
+```bash
+mamba create --name assignment1 python=3.9.12
+```
+Once the environment has been created, activate it:
+
+```bash
+mamba activate assignment1
+```
+Double check that python is version 3.9.12 in the environment:
+```bash
+python --version
+```
+Ensure that pip is using the most up to date version of setuptools:
+```bash
+pip install --upgrade pip setuptools wheel
+```
+Create an editable install of the bisection method code (note: you must be in the same directory as the .toml file):
+```bash
+pip install -e .
+```
+
+OPTIONAL for debugging: If any package is missing, you can simply run the installation command for that package. For example, if pytest is missing, please run:
+```bash
+mamba install pytest
+```
+
+Test that the code is working with pytest:
+```bash
+pytest -v --cov=bisection --cov-report term-missing
+```
+
+If you are using VSCode to run this code, don't forget to set VSCode virtual environment to assignment1 environment.
+
+To run the tutorials notebook ``assignment1.ipynb``, you can install notebook as follow:
+```bash
+mamba install jupyter notebook -y
+```
+To run the notebook in VSCode, simply double click on the ``assignment1.ipynb`` file. If you're on a terminal on a desktop, you can run the notebook with:
+```bash
+jupyter notebook assignment1.ipynb
+```
+---
+
 ### Example 1 - Warming up
 
 Let's start of with an easy example:
