@@ -1,3 +1,14 @@
+# Assignment 1
+
+[![python](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
+![os](https://img.shields.io/badge/os-ubuntu%20|%20macos%20|%20windows-blue.svg)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/sandialabs/sibl#license)
+
+[![codecov](https://codecov.io/gh/quan4444/me700_assignment1/graph/badge.svg?token=03HMSXAI2Z)](https://codecov.io/gh/quan4444/me700_assignment1)
+[![tests](https://github.com/quan4444/me700_assignment1/actions/workflows/tests.yml/badge.svg)](https://github.com/quan4444/me700_assignment1/actions)
+
+---
+
 ## Bisection method
 
 The bisection  method is a root-finding method that applies to any continuous function for which one knows two values with opposite signs [1]. While the method is simple, it comes with some disadvantages - slow convergence, requires bracketing, not suitable for multiple roots, limited precision, and requires evaluation of the function in question. Here, we will go through some examples to demonstrate the functionality and weaknesses of the bisection method.
