@@ -45,7 +45,7 @@ mamba install pytest
 
 Test that the code is working with pytest:
 ```bash
-pytest -v --cov=bisection --cov-report term-missing
+pytest -v --cov=assignment1 --cov-report term-missing
 ```
 
 If you are using VSCode to run this code, don't forget to set VSCode virtual environment to assignment1 environment.
@@ -76,7 +76,7 @@ Find the root of $y=(0.5x)^3-2$.
 
 ```python
 import numpy as np
-import bisection as bs
+from assignment1 import bisection as bs
 from typing import Union
 
 def my_function(x:Union[int,float])->Union[int,float]:
@@ -102,7 +102,7 @@ Find the root of $y=(0.2x)^2-1$.
 
 ```python
 import numpy as np
-import bisection as bs
+from assignment1 import bisection as bs
 from typing import Union
 
 def my_function(x:Union[int,float])->Union[int,float]:
@@ -148,7 +148,7 @@ Find the root of $y=(0.1x)^5-0.5x-2$.
 
 ```python
 import numpy as np
-import bisection as bs
+from assignment1 import bisection as bs
 from typing import Union
 
 def my_function(x:Union[int,float])->Union[int,float]:
@@ -257,7 +257,7 @@ Ans: We can use the simple kinematic equation $\Delta x=v_it+\frac{1}{2}at^2$
 
 ```python
 import numpy as np
-import bisection as bs
+from assignment1 import bisection as bs
 from typing import Union
 
 def my_function(x:Union[int,float])->Union[int,float]:
@@ -283,7 +283,7 @@ Ans: $f=\frac{1}{T}=\frac{1}{2\pi}\sqrt{\frac{k}{m}}\Rightarrow \frac{1}{5}=\fra
 
 ```python
 import numpy as np
-import bisection as bs
+from assignment1 import bisection as bs
 from typing import Union
 
 def my_function(x:Union[int,float])->Union[int,float]:
@@ -315,7 +315,7 @@ To get started, solve the following equation: $0=(x-3)^3$.
 
 
 ```python
-import newton as nt
+from assignment1 import newton as nt
 from typing import Union
 
 def func_to_solve(x:Union[float,int])->Union[float,int]:
@@ -341,7 +341,7 @@ $e^x-y=0$
 
 
 ```python
-import newton as nt
+from assignment1 import newton as nt
 
 def functions(x:np.ndarray)->np.ndarray:
     return np.array([
@@ -374,7 +374,7 @@ Something to think about: Why is the initial guess x_guess=0 bad?
 
 
 ```python
-import newton as nt
+from assignment1 import newton as nt
 from typing import Union
 
 def funcs(x:Union[float,int])->Union[float,int]:
@@ -400,7 +400,7 @@ Ans: $f=\frac{1}{T}=\frac{1}{2\pi}\sqrt{\frac{k}{m}}\Rightarrow \frac{1}{5}=\fra
 
 ```python
 import numpy as np
-import newton as nt
+from assignment1 import newton as nt
 from typing import Union
 
 def funcs(x:Union[int,float])->Union[int,float]:
@@ -428,7 +428,7 @@ $x^2+1-y=0$
 
 
 ```python
-import newton as nt
+from assignment1 import newton as nt
 
 def functions(x:np.ndarray)->np.ndarray:
     return np.array([
@@ -479,7 +479,7 @@ $~~\epsilon_p^n=0$
 
 
 ```python
-import elastoplastic as ep
+from assignment1 import elastoplastic as ep
 import numpy as np
 
 E=1000
@@ -549,7 +549,7 @@ $~~\alpha^n=0$
 
 
 ```python
-import elastoplastic as ep
+from assignment1 import elastoplastic as ep
 import numpy as np
 
 E=1000
@@ -602,7 +602,7 @@ A single truss element is pin supported at one end and is roller supported at th
 
 
 ```python
-import elastoplastic as ep
+from assignment1 import elastoplastic as ep
 import numpy as np
 
 E=29e3
@@ -654,7 +654,7 @@ The same truss element in Example 3 is being used again. Let's load the element 
 
 
 ```python
-import elastoplastic as ep
+from assignment1 import elastoplastic as ep
 import numpy as np
 
 E=29e3
@@ -704,7 +704,7 @@ The same truss element in Example 3 is being used again, but this time the mater
 
 
 ```python
-import elastoplastic as ep
+from assignment1 import elastoplastic as ep
 import numpy as np
 
 E=29e3
