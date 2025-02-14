@@ -37,7 +37,7 @@ jobs:
         # Replace 'my_package' with your actual package name
 
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v5
+        uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.ASSIGNMENT1 }}
           file: ./coverage.xml
