@@ -471,11 +471,11 @@ Kinematic hardening - However, this is not true for most materials in reality. U
 Plot the behavior of an isotropic hardening material with the given load increments and material behavior:
 
 $E=1000$
-$~~E_t=100$
-$~~Y_0=10$
+$E_t=100$
+$Y_0=10$
 
 $\sigma_n=0$
-$~~\epsilon_p^n=0$
+$\epsilon_p^n=0$
 
 
 ```python
@@ -540,12 +540,12 @@ ax.set_title('isotropic hardening behavior')
 Similar to Example 1, now we will try the same load increments on a kinematic hardening material with the given properties:
 
 $E=1000$
-$~~E_t=100$
-$~~Y_0=10$
+$E_t=100$
+$Y_0=10$
 
 $\sigma_n=0$
-$~~\epsilon_p^n=0$
-$~~\alpha^n=0$
+$\epsilon_p^n=0$
+$\alpha^n=0$
 
 
 ```python
@@ -596,7 +596,7 @@ ax.set_title('kinematic hardening behavior')
 
 ### Example 3 - Single Truss Element - Monotonic Loading
 
-A single truss element is pin supported at one end and is roller supported at the other end. The resulting truss element is monotonically loaded in tension along its axis in the direction of its only free displacement degree of freedom. The example element has $L=60~in$, $A=1.0~in^2$, and $E=29e3~ksi$. The yield stress is taken as $\sigma_y=36~ksi$, and plastic modulus $H=500~ksi$. Plot the stress-strain curve of the truss element behavior for displacement up to 0.05in. [4]
+A single truss element is pin supported at one end and is roller supported at the other end. The resulting truss element is monotonically loaded in tension along its axis in the direction of its only free displacement degree of freedom. The example element has $L=60in$, $A=1.0in^2$, and $E=29e3ksi$. The yield stress is taken as $\sigma_y=36ksi$, and plastic modulus $H=500ksi$. Plot the stress-strain curve of the truss element behavior for displacement up to 0.05in. [4]
 
 [4] https://imechanica.org/node/11811
 
