@@ -38,12 +38,10 @@ def newton_1D(
         x1 = newton_1D_approx_next(eval_f,eval_fd,x0)
 
         if eval_fd < tol:
-            break
+            return x1
 
         count+=1
         x0=x1
-
-    return x1
 
 
 def newton_raphson(
