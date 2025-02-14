@@ -35,7 +35,7 @@ pip install --upgrade pip setuptools wheel
 ```
 Create an editable install of the bisection method code (note: you must be in the same directory as the .toml file):
 ```bash
-pip install -e .
+python -m pip install -e .
 ```
 
 OPTIONAL for debugging: If any package is missing, you can simply run the installation command for that package. For example, if pytest is missing, please run:

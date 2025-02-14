@@ -1,5 +1,4 @@
-import elastoplastic as ep
-# from elastoplastic import ElastoPlastic as EP
+from assignment1 import elastoplastic as ep
 import numpy as np
 import pytest
 

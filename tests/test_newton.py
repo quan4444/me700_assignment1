@@ -1,5 +1,5 @@
 import numpy as np
-import newton as nt
+from assignment1 import newton as nt
 
 def test_newton_1D_approx_next():
     eval_f = 2
