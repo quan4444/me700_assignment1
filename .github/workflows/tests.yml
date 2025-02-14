@@ -33,7 +33,6 @@ jobs:
         run: pip install pytest pytest-cov
 
       - name: Run tests with coverage
-        # run: pytest --cov --junitxml=junit.xml -o junit_family=legacy
         run: pytest --cov=assignment1 --cov-report=xml
         # Replace 'my_package' with your actual package name
 
@@ -41,3 +40,5 @@ jobs:
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.ASSIGNMENT1 }}
+          file: ./coverage.xml
+          fail_ci_if_error: true
