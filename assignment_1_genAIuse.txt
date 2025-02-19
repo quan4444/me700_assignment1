@@ -1,1 +1,1 @@
-I used DeepSeek to generate the bisection method code. It generates a code with recursive calls, which is pretty bad.
+I used DeepSeek to generate the newton-raphson method code. It generates a code with recursive calls, which is pretty bad.
